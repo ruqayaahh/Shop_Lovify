@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Lovify</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="shopify.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="">
+            <h1 class="heading">Fruity</h1>
+        </div>
+        <br>
+        <!-- <br> -->
+        <div class="left">
+            <div class="newGoods">
+                <button type="submit" id="newgood">New goods?</button>
+            </div>
+
+            <div>
+                <label for="nameofnewgood">New Good:</label>
+                <input type="text" id="newgoodname">
+                <br>
+                <br>
+                <label for="priceofnewgood">Good Price:</label>
+                <input type="number" id="price-n-good">
+            </div>
+            <br>
+
+            <div class="search">
+                <input type="text" id="search" value="" placeholder="Search for goods" ><button id="enter" onclick="return lookForGood()">Search</button>
+            </div>
+
+            <div>
+                <img src="images/friutimage.jpg" id="image1">
+                <img src="images/sidefruit.jpg" id="image2">
+            </div>
+            <br>
+            
+            <div class="pad">
+            <div class="">
+                <label for="price">Price</label>
+                <input type="number" id="price" onkeyup="calculateAmount()">
+            </div>
+            <br>
+            <div class="">
+                <label for="quantity">Quantity</label>
+                <input type="number" id="qty" onkeyup="calculateAmount()">
+            </div>
+            <br>
+            <div class="">
+                <label for="amount">Amount</label>
+                <input type="number" id="total" class="">
+            </div>
+            <br>
+            <button type="submit" id="addgood" class="addItem" onclick="addItem()">Add good</button>
+            </div>
+
+            <br>
+            <br>
+            
+            
+        </div>
+
+        <div class="right">
+            <div class="cart">
+                <p>Cart</p>
+            </div>
+            <div class="cntupdater">
+
+                <div>
+                    <table border=1>
+                        <thead>
+                            <tr>
+                                <th>Item </th>
+                                <th>Unit Price</th>
+                                <th>Quantity</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody id="item-list"></tbody>
+                    </table>
+                    <div id="cat-total"></div>
+                    <button type="submit" id="checkout">Checkout</button>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="shoplovify.js"></script>
+    <script src="amount.js"></script>
+    <script src="add_to_cart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+body{
+  background-color: silver;
+}
+
+
+.heading{
+  background-color: green;
+  height: 60px;
+}
+.left{
+  background-color: rgb(245, 230, 230);
+  float: left;
+  width: 49%;
+  position: relative;
+  
+}
+.cart{
+  background-color: green;
+  margin: 7px;
+  font-size: 25px;
+}
+
+.right{
+  background-color: rgb(245, 230, 230);
+  float: right;
+  width: 49%;
+}
+
+.cntupdater{
+  min-height: 500px;
+  background-color: whitesmoke;
+  margin: 7px;
+  margin-bottom:-10px;
+
+}
+
+.newGoods {
+  margin: 7px;
+  background-color: green;
+}
+.search{
+  background-color: green;
+  margin: 7px;
+  height: 40px;;
+}
+.form{
+  background-color: grey;
+  margin: 7px;
+}
+#unitPrice{
+  margin-left: 25px;
+  margin-top:  10px;  
+}
+.input, #newgood{
+  margin-left: 20px;
+}
+#search{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#addItem, #checkout{
+  margin-left: 70%;
+  margin-bottom:5px;
+  
+  transition: width 2s, height 2s ;
+  transition-delay: 1s;
+  width: 100px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#cat-total{
+  margin-left: 22%;
+  margin-top: 10px;
+}
+
+.pad {
+  margin: 20px;
+}
+
+#image1, #image2{
+  height: 250px;
+  width: 50%;
+}
+#image1{float: left;}
+#image2{float: right;}
+#checkout, #newgood{
+  background-color: gray; 
+  text-align: center;
+  box-shadow: 0 4px 8px 0 goldenrod;
+  
+  transition: width 2s, height 2s ;
+  transition-delay: 1s;
+  width: 100px;
+  
+  margin: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#checkout:hover{
+  width: 130px;
+  height: 45px;
+}
+#checkout{height: 40px; font-size: 16px;}
+#newgood, .addItem{height: 28px;font-size: 13px;}
+#addItem, #view-sales{box-shadow: 0 2px 3px 0 goldenrod;}
+#view-sales{
+  float: right;
+  height: 30px;
+  transition: width 2s, height 2s ;
+  transition-delay: 1s;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+/* body{
+  background-color: silver;
+}
+
+
+.heading{
+  background-color: green;
+  height: 60px;
+}
+.left{
+  background-color: rgb(245, 230, 230);
+  float: left;
+  width: 49%;
+  
+}
+.cart{
+  background-color: green;
+  margin: 7px;
+  font-size: 25px;
+}
+
+.right{
+  background-color: rgb(245, 230, 230);
+  float: right;
+  width: 49%;
+}
+
+
+
+.cntupdater{
+  min-height: 500px;
+  background-color: whitesmoke;
+  margin: 7px;
+  margin-bottom:-10px;
+
+}
+
+.newGoods, p{
+  margin: 7px;
+  background-color: green;
+}
+.search{
+  background-color: green;
+  margin: 7px;
+  height: 40px;;
+}
+.form{
+  background-color: grey;
+  margin: 7px;
+}
+#unitPrice{
+  margin-left: 25px;
+  margin-top:  10px;  
+}
+.input, #newgood{
+  margin-left: 20px;
+}
+#search{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#addItem, #checkout{
+  margin-left: 70%;
+  margin-bottom:5px;
+  
+  transition: width 2s, height 2s ;
+  transition-delay: 1s;
+  width: 100px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#cat-total{
+  margin-left: 22%;
+  margin-top: 10px;
+}
+#image1, #image2{
+  height: 105px;
+  width: 50%;
+}
+#image1{float: left;}
+#image2{float: right;}
+#checkout, #newgood{
+  background-color: gray; 
+  text-align: center;
+  box-shadow: 0 4px 8px 0 goldenrod;
+  
+  transition: width 2s, height 2s ;
+  transition-delay: 1s;
+  width: 100px;
+  
+  margin: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#checkout:hover{
+  width: 130px;
+  height: 45px;
+}
+#checkout{height: 40px; font-size: 16px;}
+#newgood, #addItem{height: 28px;font-size: 13px;}
+#addItem, #view-sales{box-shadow: 0 2px 3px 0 goldenrod;}
+#view-sales{
+  float: right;
+  height: 30px;
+  transition: width 2s, height 2s ;
+  transition-delay: 1s;
+  border-radius: 6px;
+  cursor: pointer;
+} */
